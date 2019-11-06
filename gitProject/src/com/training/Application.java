@@ -9,6 +9,9 @@ public class Application {
 		List<String> list=Arrays.asList("ram","sham","atul");
 		list.forEach(System.out::println);
 
+		for( String each:list) {
+			System.out.println(each);
+		}
 	}
 
 }
