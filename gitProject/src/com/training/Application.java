@@ -11,6 +11,8 @@ public class Application {
 
 		for( String each:list) {
 			System.out.println(each);
+			
+			Book book=new Book(1001,"head first Java");
 		}
 	}
 
